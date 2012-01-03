@@ -1,0 +1,52 @@
+==============================================================================
+djin1
+==============================================================================
+Todo list:
+-Build game architecture
+	-game states
+	-shared data
+	-assets
+	-managers
+-try to get access to the mouse (onMove)
+-render skybox
+-load audio
+-load models (md2)
+-find way to link screen touches with game system
+-add splash screen... not urgent
+-fix model rotations (MD2 rotation center, etc..)
+
+==============================================================================
+
+------------------------------------------------------------------------------
+13/11/2011
+-build entity classes in GameData
+-loading md2, storing models and entities seperatedly in GameData.
+-render multiple GameEntities with a single model reference
+-rendered simple terrain
+
+------------------------------------------------------------------------------
+12/11/2011
+-organized rendering between GameRenderer and GameStates
+-drop loaded textures in GameData (load screen) and pick it up from other states.
+-add rotation to cube.
+-separated rendering from world creation
+-draw fps
+-figured out 'source not found' issues, keep rook mindset...
+------------------------------------------------------------------------------
+11/11/2011
+-finish basic state setup
+-get renderer working
+-states will have control over rendering and such
+------------------------------------------------------------------------------
+10/11/2011
+-get debugger running
+-added states, general flow
+-learned a bit of game design - thank you skip
+------------------------------------------------------------------------------
+04/11/2011
+-build game states
+-problems with debugger
+------------------------------------------------------------------------------
+03/11/2011
+-setup JPCT, build project.
+-started this dot_plan file to jumpstart development
